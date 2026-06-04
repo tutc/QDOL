@@ -1,13 +1,14 @@
 PretrainedModel/resnet18_ImageNet32.pth.tar
 PretrainedModel/resnet50_ImageNet32.pth.tar
 Abblation_QD_NCM_Co_the_publish_ExactForgetting3.py
-Abblation_QD_NCM_Co_the_publish_ExactForgetting3_New020626.py
+Abblation_QD_NCM_Co_the_publish_Forgetting3_New020626.py
 Cifar10Resnet18_torch_Acc thap hon.py
 Cifar100ViTB16.py
 Core50Resnet18_Acc thap hon Claude.py
 CUB200step2Co_the_publish_withTime3_20260602_220330.xlsx
 Cub200ViTB16.py
 Main_QD_NCM_Co_the_publish_ExactForgetting3_KhongKhop.py
+Main_Full_Chuan.py
 temp
 __pycache__/
 *.pyc
@@ -17,3 +18,4 @@ __pycache__/
 *.pt
 venv/
 vl_env/
+Abblation_QDOL.py
