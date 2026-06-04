@@ -1,0 +1,4 @@
+import Cifar10Resnet18
+import Cifar100Resnet50
+import Cub200Resnet50
+import Core50Resnet18
