@@ -13,40 +13,28 @@ Online task-free class-incremental learning remains challenging due to catastrop
 - Resnet-18
 - Resnet-50
 ## Sample commands to run QDOL
-##### Dataset: Split CIFAR-10, Feature extractor: Reduced Resnet-18, Memory size: 1000
+##### Dataset: Split CIFAR-10, Budget (Memory size): 1000, Method: QDOL
 <pre>
   <code id="code-snippet">
-    python General_main.py --dataset cifar10 --backbone reduced --memory 1000 
+    python Main.py --dataset cifar10 --budget 1000 --method qdol
   </code>
 </pre>
-##### Dataset: CORe-50, Feature extractor: Resnet-18, Memory size: 2000
+##### Dataset: CORe-50, Budget: 3000, Method: Herding
 <pre>
   <code id="code-snippet">
-    python General_main.py --dataset core50 --backbone resnet18 --memory 2000
+    python Main.py --dataset core50 --budget 2000 --method herding
   </code>
 </pre>
-##### Dataset: Split CIFAR-100, Feature extractor: Resnet-50, Step: 2
+##### Dataset: Split CIFAR-100, Budget: 3000, Step: 5, Method: QDOL offline
 <pre>
   <code id="code-snippet">
-    python General_main.py --dataset cifar100 --backbone resnet50 --step 2
+    python Main.py --dataset cifar100 --step 5 --method qd_off
   </code>
 </pre>
-##### Dataset: Split CUB-200, Feature extractor: Resnet-50, Step: 5
+##### Dataset: Split CUB-200, Budget: 3000, Step: 5, Method: DPP
 <pre>
   <code id="code-snippet">
-    python General_main.py --dataset cub200 --backbone resnet50 --step 5
-  </code>
-</pre>
-##### Case study: Split CIFAR-10, Feature extractor: Resnet-18, Step: 2
-<pre>
-  <code id="code-snippet">
-    python General_main.py --case_study True --dataset cifar10 --backbone resnet18 --step 2
-  </code>
-</pre>
-##### Runtime with respect to the number of seen classes: Split CIFAR-100, Feature extractor: Resnet-50, Step: 2, Memory size: 3000
-<pre>
-  <code id="code-snippet">
-    python General_main.py --runtime True
+    python Main.py --dataset cub200 --step 5 --method dpp
   </code>
 </pre>
 

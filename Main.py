@@ -372,7 +372,7 @@ def run_single(
     # Mapping method -> SelectorClass + kwargs
     METHOD_MAP = {
         "herding": (HerdingSelector,     {},              "Herding"),
-        "kdpp":    (KDPPSelector,         {"alpha": 0.0}, "DPP"),
+        "dpp":    (KDPPSelector,         {"alpha": 0.0}, "DPP"),
         "qd_off":  (KDPPSelectorOffline,  {"alpha": 1.0}, "QDOL (Offline)"),
         "qdol":    (KDPPSelector,         {"alpha": 1.0}, "QDOL (Online)"),
     }
