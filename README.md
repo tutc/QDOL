@@ -46,6 +46,6 @@ If you use this code in your research, please cite the following relevant work:
       author       = {Cong Tu Tran, Thanh Tuan Nguyen, Thanh Phuong Nguyen, and Nadège Thirion-Moreau},
       title        = {QDOL: Incremental Quality-Diversity Exemplar Selection for Online Task-Free Continual Learning},
       conference   = {ACIVS 2026},
-      note         = {Submitted 2025}
+      note         = {Submitted 2026}
     }  </code>
 </pre>
